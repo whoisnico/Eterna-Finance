@@ -1,0 +1,77 @@
+# Visual Studio spezifische Dateien
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.ncb
+
+# Build-Ordner
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]og/
+[Ll]ogs/
+
+# Paketverwaltung (NuGet)
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Rider und Resharper spezifisch
+.idea/
+*.sln.iml
+*.DotSettings.user
+**/*.DotSettings
+
+# Debugging & Runtime-Dateien
+*.pdb
+*.ilk
+*.ipdb
+*.iobj
+
+# Web- und ASP.NET spezifische Dateien
+wwwroot/node_modules/
+node_modules/
+dist/
+bower_components/
+
+# Publish/Deployment Dateien
+*.publish/
+*.deploy/
+PublishProfiles/
+
+# Unit-Test Ergebnisse
+TestResults/
+*.TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# User Secrets (ASP.NET Core)
+secrets.json
+**/secrets/
+
+# Entity Framework Migrations
+Migrations/
+
+# Log-Dateien
+*.log
+logs/
+
+# SQLite Datenbankdateien
+*.db
+*.db-shm
+*.db-wal
+
+# Lokale Konfigurationsdateien
+appsettings.Development.json
+appsettings.Local.json
+*.env
+
+# JetBrains Rider
+.idea/
